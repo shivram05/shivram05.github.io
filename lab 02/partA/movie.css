@@ -1,0 +1,31 @@
+body{
+    background-image: url(background.png);
+}
+
+.center{
+    text-align: center;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.banner{    
+    background-image: url(rbg.png);
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+ 
+
+}
+
+.cornor, .container{
+    border-radius: 15px;
+    background: gray;
+    padding-left: 4px;
+    padding-top: 4px;
+    border-width: 5px;  
+}
+
+img{
+   position: fixed;
+}
