@@ -1,0 +1,24 @@
+body{
+    background-color: gray;
+}
+
+#textColor{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aqua;
+    font-size: 15px;
+}
+
+#textWhiteColor{
+    color: white;
+}
+
+  #header-titles{
+    width:5%;
+    margin-left:5%;
+    text-align: left;
+    float: left;
+  }
+  #header-image{
+   height: 40%;
+   width: 20%;
+  }
