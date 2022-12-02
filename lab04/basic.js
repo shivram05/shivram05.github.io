@@ -2,7 +2,7 @@ let arr=[2,3,5];
 let longWord = ["Google", "Yahoo", "Amazon", "Microsoft"];
 
 
-
+// TEST FUNCTION
 function myFunctionTest(expected, found) {
     if (expected === found) {
       return "TEST SUCCEEDED";
