@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <title>
+            Regular Expression Assignment
+        </title>
+
+    </head>
+
+    <body>
+        <form>
+        <label>Email address</label>
+        <input type="text" placeholder="Enter email" class="box">
+        <p id="message">We'll never share your email with anyone else.</p>
+
+        <label>Password</label>
+        <input type="password" id ="password" placeholder="Password" class="box" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).{10,}$"
+         title="Password must contain at least 10 characters in length and contain at least one number and one uppercase and lowercase letter." >
+        <div>
+            <input type="checkbox" id="check"> 
+            <label for="check" id="checklabel">Check me out</label>
+        </div>
+        <input type="submit" value="Submit" id="button">
+    </form>
+    </body>
+</html>
