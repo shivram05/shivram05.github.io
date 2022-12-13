@@ -38,9 +38,9 @@ class CheckingAccount extends Account{
         }`;
       }
     }
-    const checkingAccount = new CheckingAccount("9909");
-    console.log("withdraw 400");
-    checkingAccount.withdraw(400);
+    const checkingAccount = new CheckingAccount("8909");
+    console.log("withdraw 500");
+    checkingAccount.withdraw(500);
     console.log(checkingAccount.toString());
     
     console.log("withdraw 100");
