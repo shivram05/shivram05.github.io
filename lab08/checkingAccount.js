@@ -18,7 +18,7 @@ class CheckingAccount extends Account{
         if (amount > this.getBalance() + this.overdraft) {
           throw Error("Insufficient funds");
         }
-        // setBalance(this.getBalance() - amount);
+        this.setBalance(this.getBalance() - amount);
       }
       toString() {
         return (
@@ -39,17 +39,17 @@ class CheckingAccount extends Account{
       }
     }
     const checkingAccount = new CheckingAccount("9909");
-    console.log("withdraw 300");
+    console.log("withdraw 400");
     checkingAccount.withdraw(400);
     console.log(checkingAccount.toString());
     
-    console.log("withdraw 200");
+    console.log("withdraw 100");
     checkingAccount.withdraw(100);
     console.log(checkingAccount.toString());
-    console.log("deposit 400");
+    console.log("deposit 500");
     checkingAccount.deposit(500);
     console.log(checkingAccount.toString());
-    console.log("withdraw 200");
+    console.log("withdraw 100");
     checkingAccount.withdraw(100);
     console.log(checkingAccount.endOfMonth(), "end of ==========");
     
