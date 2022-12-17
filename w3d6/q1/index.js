@@ -11,6 +11,7 @@ app.get("/", (req, res) => {
     pageTitle: "night",
     time: date.toTimeString(),
     hour: date.getHours() > 6 && date.getHours() < 18 ? "day" : "night",
+    
   });
 });
 
